@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
       showStatus("Sending...", "loading");
 
       try {
-        const res = await fetch("https://vikram-portfolio-mgq7.onrender.com/contact", {
+        const res = await fetch("https://md-aftab-portfolio.onrender.com/contact", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
